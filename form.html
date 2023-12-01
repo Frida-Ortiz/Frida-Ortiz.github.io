@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emprende Tec</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="formulario container">
+      <form method="post" autocomplete="off">
+        <h2>Registra tu equipo</h2>
+        <div class="input-group">
+          <div class="input-container">
+            <input type="text" name="name" placeholder="Nombre del Proyecto" />
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" placeholder="Telefono" />
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="input-container">
+            <input
+              type="email"
+              name="email"
+              placeholder="Correo institucional"
+            />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="input-container">
+            <textarea
+              name="message"
+              placeholder="Nombre de los integrantes"
+            ></textarea>
+          </div>
+          <input type="submit" name="send" class="btn" onclick="myFunction()" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
